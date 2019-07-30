@@ -1,0 +1,20 @@
+name: 'Visualization'
+type: module
+description: 'Provide node visualization'
+package: Media
+
+type: module
+# core: 8.x
+
+configure: visualization.admin_settings
+
+php: 7.0
+
+# Information added by Drupal.org packaging script on 2018-09-21
+version: '8.x-1.2'
+core: '8.x'
+project: 'visualization'
+datestamp: 1537636999
+dependencies:
+  - node
+  - block

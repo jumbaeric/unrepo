@@ -1,0 +1,17 @@
+name: Diba carousel slider
+description: Diba carousel slider block based on Bootstrap carousel.
+type: module
+# core: 8.x
+dependencies:
+  - drupal:block
+  - drupal:user
+  - drupal:node
+  - drupal:image
+  - drupal:options
+  - drupal:link
+
+# Information added by Drupal.org packaging script on 2019-03-08
+version: '8.x-1.10'
+core: '8.x'
+project: 'diba_carousel'
+datestamp: 1552042695
